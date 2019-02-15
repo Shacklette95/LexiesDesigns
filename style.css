@@ -1,9 +1,24 @@
 
-/*     Header Styles  ----------*/
+/*-------- Header Styles  ----------*/
+
+.center{
+    text-align:center;
+}
 
 .header h1{
     font-size: 200px;
     background-color: blue;
-    margin-top: 0;
-    
+    margin: 0;
 }
+#main-nav{
+    list-style-type: none;
+    font-size: 3.5em;
+}
+
+#main-nav a{
+    text-decoration: none;
+}
+
+/*--------Cotent Styles---------*/
+
+
