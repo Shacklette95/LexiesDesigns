@@ -27,4 +27,19 @@
 
 /*--------Cotent Styles---------*/
 
+.content {
+    width:90%;
+    text-align: center;
+    margin-left: 5%;
+    background-color: #87ea85;
+    border-radius: 25px;
+}
+
+.images img{
+    width: 90%;
+    height: auto;
+}
+
+/*-------- Image Carousel---------*/
+
 
