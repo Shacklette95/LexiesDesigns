@@ -18,11 +18,43 @@
             <h2>Welcome</h2>
             <p>This is a website to show my sister that i can build a website for her to sell her art. She has come up with all of these off the top of her head. They were all patterned and designed free-hand, even though almost all the designes originated from tv shows, or movies. Yes, this is mostly to brag about my sister, but that is what brothers are for.</p>
         </div>
-        <div class="images">
-            <img id="Serpent" src="Images/SouthSideSerpents.jpg">
-            <img id="Gauntlet" src="Images/FullMetalAlchemistGauntlet.jpg">
-            <img id="Jacket" src="Images/TBirdJacket.jpg">
+    <!-- Image Carousel -->
+    <div class="slideshow-container">
+
+        <!-- Images for Carousel -->
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="Images/FullMetalAlchemistGauntlet.jpg" style="width:100%">
+          <div class="text">Gauntlet</div>
         </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="Images/SouthSideSerpents.jpg" style="width:100%">
+          <div class="text">Serpent</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="Images/TBirdJacket.jpg" style="width:100%">
+            <div class="text">T-Bird</div>
+          </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div> 
     </div>
-    <script src="script.js"></script>
+  </div>
+
+  <script src="image-carousel.js"></script>
+  <script src="script.js"></script>
 </body>
