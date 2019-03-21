@@ -1,14 +1,24 @@
 /*-------- Header Styles  ----------*/
 
-.center{
-    text-align:center;
-}
-
 .header{
+    display: flex;
+    flex-direction: column;
     background-image: linear-gradient(to right,red, yellow, blue, red );
     font-size: 2em;
     width: 90%;
     margin-left: 5%;
+    text-align:center;
+}
+
+.btn-cart{
+    border-radius: 50%;
+    margin-left: auto;
+    height: 80px;
+    width: 72px;
+}
+
+.btn-cart img{
+    height: 60px;
 }
 
 .header h1{
@@ -17,13 +27,13 @@
   }
   
 .header h2{
-    margin-top: 0;
+    margin: 0;
 }
 
 #main-nav{
     list-style-type: none;
     padding:0;
-    font-size:1.5em;
+    font-size: 1.4em;
 }
 
 #main-nav a{
@@ -60,3 +70,32 @@
     flex-wrap:wrap;
     font-size: 1em;
 }
+
+/* ------Media Queries----- */
+
+@media only screen and (min-width: 992px) {
+
+    .header {
+      display: inline-flex;
+    }
+  
+    #main-nav {
+        order: 1;
+        text-align: left;
+        display: inline-flex;
+        float: left;
+      }
+    #main-nav li {
+      margin-right: 5%;
+      border: 3px black solid;
+    }
+  
+    .btn-cart{
+        order: 2;
+      }
+    .main-header{
+        order: 3;
+        padding-bottom: 5%;
+      }
+
+      
