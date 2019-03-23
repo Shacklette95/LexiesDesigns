@@ -81,6 +81,9 @@
 }
 .content input{
     margin-left: 10px;
+    font-size: 1em;
+    margin-top: 4px;
+    margin-bottom:5px;
 }
 
 /*--------Quiz Styles---------*/

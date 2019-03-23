@@ -1,8 +1,8 @@
 
-var CorrectAnswer1 = "Skellington";
-var CorrectAnswer2= "Edward";
-var CorrectAnswer3= "Green";
-var CorrectAnswer4= "Danny";
+var CorrectAnswer1 = "SKELLINGTON";
+var CorrectAnswer2= "EDWARD";
+var CorrectAnswer3= "GREEN";
+var CorrectAnswer4= "DANNY";
 var Answer= document.getElementById("answers");
 
 
@@ -21,10 +21,10 @@ document.getElementById("SubmitAnswer2").innerHTML = Answer2;
 document.getElementById("SubmitAnswer3").innerHTML = Answer3;
 document.getElementById("SubmitAnswer4").innerHTML = Answer4;
 
-   if (Answer1 === CorrectAnswer1){NumberCorrect++;}
-   if (Answer2 === CorrectAnswer2){NumberCorrect++;}
-   if (Answer3 === CorrectAnswer3){NumberCorrect++;}
-   if (Answer4 === CorrectAnswer4){NumberCorrect++;}
+   if (Answer1.toUpperCase() === CorrectAnswer1){NumberCorrect++;}
+   if (Answer2.toUpperCase() === CorrectAnswer2){NumberCorrect++;}
+   if (Answer3.toUpperCase() === CorrectAnswer3){NumberCorrect++;}
+   if (Answer4.toUpperCase() === CorrectAnswer4){NumberCorrect++;}
    if (NumberCorrect>0){
     alert('You got '+ NumberCorrect+ " correct.");
     Answer.style.display= "block"
