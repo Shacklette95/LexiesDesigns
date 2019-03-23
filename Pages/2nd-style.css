@@ -87,6 +87,8 @@
 
 #answers {
     display: none;
+    padding-left: 15px;
+    padding-bottom: 15px;
 }
 
 footer {
