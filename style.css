@@ -67,10 +67,12 @@ text-align: center;
 
 
 /* Slideshow container */
+
 .slideshow-container {
-  max-width: 90%;
   position: relative;
   margin: auto;
+  width: fit-content;
+  text-indent: 0;
 }
 
 /* Hide the images by default */
@@ -160,9 +162,14 @@ text-align: center;
   to {opacity: 1}
 } 
 
+  footer {
+    text-align: center;
+    font-size:1.3em;
+  }
+
 /* ------Media Queries----- */
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 990px) {
 
   .header {
     display: inline-flex;
@@ -173,6 +180,7 @@ text-align: center;
       text-align: left;
       display: inline-flex;
       float: left;
+      flex-wrap: wrap;
     }
   #main-nav li {
     margin-right: 5%;

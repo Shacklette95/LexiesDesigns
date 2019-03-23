@@ -71,6 +71,28 @@
     font-size: 1em;
 }
 
+.content {
+    font-size: 1.5em;
+    width: 90%;
+    margin-left:5%;
+    background-color: #FF5733;
+    padding: 15px;
+}
+.content input{
+    margin-left: 10px;
+}
+
+/*--------Quiz Styles---------*/
+
+#answers {
+    display: none;
+}
+
+footer {
+    text-align: center;
+    font-size:1.3em;
+  }
+
 /* ------Media Queries----- */
 
 @media only screen and (min-width: 992px) {
@@ -84,9 +106,9 @@
         text-align: left;
         display: inline-flex;
         float: left;
+        justify-content: space-around;
       }
     #main-nav li {
-      margin-right: 5%;
       border: 3px black solid;
     }
   
@@ -98,4 +120,4 @@
         padding-bottom: 5%;
       }
 
-      
+}      
