@@ -30,6 +30,10 @@
     margin: 0;
 }
 
+
+/*----- Main Navigation -------*/
+
+
 #main-nav{
     list-style-type: none;
     padding:0;
@@ -44,7 +48,7 @@
 }
 
 
-/*--------Cotent Styles---------*/
+/*--------Product List Styles---------*/
 
 .product{
     display:flex;

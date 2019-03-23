@@ -5,10 +5,12 @@
 </head>
 
 <body>
+    <!-------- Main Header -------->
     <div class= 'header'>
         <button class="btn-cart"><img src="../shopping_cart.png"></button>
         <h1>Lexie's Designs</h1>
-        <h2>Drawings</h2>
+        <h2>Quiz</h2>
+        <!--------- Main Navigation --------->
         <ul id= 'main-nav'>
             <li><a href= '../index.html'>Home</a></li>
             <li><a href= 'costumes.html'>Costumes</a></li>
@@ -19,27 +21,30 @@
     </div>
     <div class="content">
         <h2>Questions</h2>
+        <!--------- Question 1 -------->
         <div>
             <label for="Answer1">What is the last name of the main character in the Nightmare Before Christmas?</label><br>
             <input type="name" id="Answer1">
         </div>
+        <!--------- Question 2 --------->
         <div>
             <label for="Answer2">What is the first name of the Fullmetal Alchemist?</label><br>
             <input type="name" id="Answer2">
         </div>
-
+        <!--------- Question 3 --------->
         <div>
             <label for="Answer3">What color is Tinker Bell's Dress?</label><br>
             <input type="name" id="Answer3">    
         </div>
-
+        <!--------- Question 4 ---------->
         <div>
             <label for="Answer4">What is the first name of the main male character in Grease?</label><br>
             <input type="name" id="Answer4">    
         </div>
         <input type="button" id="Submit" value="Submit">
-
+        <!------ Answer Section, it is hidden at first ------>
         <div id="answers">
+            <!-------- Submitted Answers --------->
             <div class="SubmitAnswers">
                 <h2>Your Answers:</h2>
                 <ol>
@@ -49,6 +54,7 @@
                     <li id="SubmitAnswer4"></li>
                 </ol>
             </div>
+            <!--------- Correct Answers --------->
             <div class="CorrectAnswers">
                 <h2>Correct Answers:</h2>
                 <ol>
