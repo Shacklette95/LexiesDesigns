@@ -10,14 +10,14 @@
     text-align:center;
 }
 
-.btn-cart{
+#btn-cart{
     border-radius: 50%;
     margin-left: auto;
     height: 80px;
     width: 72px;
 }
 
-.btn-cart img{
+#btn-cart img{
     height: 60px;
 }
 
