@@ -65,12 +65,14 @@ text-align: center;
   text-indent: 2em;
 }
 
-.welcome h2{
+.welcome h2,
+.second h2{
   font-size: 2.5em;
   text-align: center;
 }
 
-.welcome p {
+.welcome p,
+.second p {
   font-size: 1.5em;
 }
 
@@ -182,7 +184,7 @@ text-align: center;
 
 /* ------Media Queries----- */
 
-@media only screen and (min-width: 990px) {
+@media only screen and (min-width: 800px) {
 
   .header {
     display: inline-flex;
@@ -204,20 +206,12 @@ text-align: center;
       order: 2;
     }
   .main-header{
-      order: 3;
       padding-bottom: 5%;
     }
 
-    .content {
-      display: flex;
-    }
-
-  .welcome {
-    width: 45%;
-    margin-left: 1%;
+  .content{
+    display: block;
+    column-count: 2;
   }
-  #slideshow {
-    width: 45%;
-  }
-
 }
+
