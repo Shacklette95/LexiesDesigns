@@ -1,6 +1,8 @@
 
 //cart message
-document.getElementById("btn-cart").onclick = function(){alert("Sorry\nUnfortunately, the cart button is not working right now.")};
+document.getElementById("btn-cart").onclick = function(){
+  alert("Sorry\nUnfortunately, the cart button is not working right now.")
+};
 
 //Add to cart message
 // Get an array of buttons from the page

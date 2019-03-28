@@ -1,3 +1,4 @@
+
 /*-------- Header Styles  ----------*/
 
 .header{
@@ -24,7 +25,7 @@
 .header h1{
     margin: 0;
     padding-top: 5%;
-  }
+}
   
 .header h2{
     margin: 0;
@@ -32,7 +33,6 @@
 
 
 /*----- Main Navigation -------*/
-
 
 #main-nav{
     list-style-type: none;
@@ -83,6 +83,7 @@
     text-indent: 15px;
     
 }
+
 .content input{
     margin-left: 10px;
     font-size: 1em;
@@ -101,11 +102,11 @@
 footer {
     text-align: center;
     font-size:1.3em;
-  }
+}
 
 /* ------Media Queries----- */
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1100px) {
 
     .header {
       display: inline-flex;
@@ -117,17 +118,20 @@ footer {
         display: inline-flex;
         float: left;
         justify-content: space-around;
-      }
+    }
+
     #main-nav li {
       border: 3px black solid;
     }
   
     .btn-cart{
         order: 2;
-      }
+    }
+    
     .main-header{
         order: 3;
         padding-bottom: 5%;
-      }
+    }
 
-}      
+} 
+

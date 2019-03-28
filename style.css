@@ -1,11 +1,7 @@
 
 * {box-sizing:border-box}
 
-
 /*-------- Header Styles  ----------*/
-
-
-
 .header{
   display: flex;
   flex-direction: column;
@@ -14,16 +10,14 @@
   width: 90%;
   margin-left: 5%;
 }
+
 .header h1{
 margin: 0;
 padding-top: 5%;
 text-align: center;
 }
 
-
 /*------ Main Navigation Stlyes ------*/
-
-
 #main-nav{
   list-style-type: none;
   padding:0;
@@ -38,11 +32,7 @@ text-align: center;
   font-size: 1.4em;
 }
 
-
 /*---- Shopping Cart Styles -------*/
-
-
-
 #btn-cart{
   border-radius: 50%;
   margin-left: auto;
@@ -55,8 +45,6 @@ text-align: center;
 }
 
 /*--------Cotent Styles---------*/
-
-
 .content {
   width: 90%;
   margin-left: 5%;
@@ -76,9 +64,7 @@ text-align: center;
   font-size: 1.5em;
 }
 
-
 /* Slideshow container */
-
 .slideshow-container {
   position: relative;
   margin: auto;
@@ -92,7 +78,7 @@ text-align: center;
 }
 
 /* Next & previous buttons */
- .prev, .next {
+.prev, .next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -151,7 +137,7 @@ text-align: center;
   transition: background-color 0.6s ease;
 }
 
- .active, .dot:hover {
+.active, .dot:hover {
   background-color: #717171;
 }
 
@@ -173,17 +159,13 @@ text-align: center;
   to {opacity: 1}
 } 
 
-
 /*----- Footer Styles ------*/
-
-
-  footer {
-    text-align: center;
-    font-size:1.3em;
-  }
+footer {
+  text-align: center;
+  font-size:1.3em;
+}
 
 /* ------Media Queries----- */
-
 @media only screen and (min-width: 1100px) {
 
   .header {
@@ -191,23 +173,25 @@ text-align: center;
   }
 
   #main-nav {
-      order: 1;
-      text-align: left;
-      display: inline-flex;
-      float: left;
-      flex-wrap: wrap;
-    }
+    order: 1;
+    text-align: left;
+    display: inline-flex;
+    float: left;
+    flex-wrap: wrap;
+  }
+
   #main-nav li {
     margin-right: 5%;
     border: 3px black solid;
   }
 
   #btn-cart{
-      order: 2;
-    }
+    order: 2;
+  }
+  
   .main-header{
-      padding-bottom: 5%;
-    }
+    padding-bottom: 5%;
+  }
 
   .content{
     display: block;
